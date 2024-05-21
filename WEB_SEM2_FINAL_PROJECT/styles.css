@@ -31,10 +31,14 @@ a:link {
 ul{
     list-style-type: none;
     margin: 0px;
-    padding: 10px 30.3px;
+    padding: 10px 2px;
     overflow: hidden;
     background-color: rgb(0, 0, 0);
     float: top;
+}
+
+.second_ul{
+  padding: 0px 1px;
 }
 
 li{
@@ -45,10 +49,26 @@ li a{
     display: block;
     color: #F2C46D;
     text-align: center;
-    padding: 14px 16px;
+    padding: 80px 67px;
     font-size: 30px;
     font-size: normal;
     font-weight: bold;
+    float: left;
+}
+
+li b{
+  display: block;
+  color: #F2C46D;
+  text-align: center;
+  padding: 80px 30px;
+  font-size: 30px;
+  font-size: normal;
+  font-weight: bold;
+  float: left;
+}
+
+.b{
+    padding: 0px 0px;
 }
 
 .Slate1{
@@ -61,10 +81,20 @@ li a{
     float: center;
   }
 
-  .Slate2{
-    background-color: gray;
+  .Slate12{
+    background-color: rgb(0, 0, 0);
     color: #F2C46D;
-    padding: 60px 60px;
+    padding: 10px;
+    text-align: middle;
+    width: 600px;
+    margin: auto;
+    float: left;
+  }
+
+  .Slate2{
+    background-color: rgb(0, 0, 0);
+    color: #F2C46D;
+    padding: 2px 40px;
     text-align: left;
     width: 600px;
     margin: auto;
@@ -76,8 +106,62 @@ li a{
     float: right;
 }
 
+.search{
+    overflow: hidden;
+    background-color: white;
+}
 
+.search a{
+  float: left;
+  display: block;
+  color: black;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;   
+}
 
+.search .searchtwo{
+    float: right;
+}
 
+.search input[type=text]{
+  padding: 6px;
+  margin-top: 8px;
+  font-size: 17px;
+  border: none;
+}
 
+.search .searchtwo button{
+    float: right;
+    padding: 6px 10px;
+    margin-top: 8px;
+    margin-right: 16px;
+    background: #ddd;
+    font-size: 17px;
+    border: none;
+    cursor: pointer;
+  }
 
+  .search .search-container button:hover {
+    background: #ccc;
+  }
+  
+  @media screen and (max-width: 600px) {
+    .search .search-container {
+      float: none;
+    }
+    .search a, .search input[type=text], .search .search-container button {
+      float: none;
+      display: block;
+      text-align: left;
+      width: 100%;
+      margin: 0;
+      padding: 14px;
+    }
+    .search_input[type=text] {
+      border: 6px solid rgb(255, 255, 255);  
+      float: right;
+      size: 20px;
+    }
+  }
