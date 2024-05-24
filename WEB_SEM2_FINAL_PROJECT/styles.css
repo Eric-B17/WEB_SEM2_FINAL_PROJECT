@@ -65,23 +65,13 @@ li a{
     display: block;
     color: #F2C46D;
     text-align: center;
-    padding: 80px 65.5px;
+    padding: 80px 48px;
     font-size: 30px;
     font-size: normal;
     font-weight: bold;
     float: left;
 }
 
-li b{
-  display: block;
-  color: #F2C46D;
-  text-align: center;
-  padding: 80px 25.5px;
-  font-size: 30px;
-  font-size: normal;
-  font-weight: bold;
-  float: left;
-}
 
 .b{
     padding: 0px 0px;
@@ -114,7 +104,6 @@ li b{
     text-align: left;
     width: 600px;
     margin: auto;
-    float: left;
   }
 
 .Picture1{
